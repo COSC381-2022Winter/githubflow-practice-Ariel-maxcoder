@@ -1,8 +1,12 @@
+# Movies Website for COSC 381
+## Steps for starting Website (devlopment mode)
+
 Steps:
-  1.  python3 -m venv venv
-  2.  source venv/bin/activate
-  3.  python3 -m pip install -r requirements.txt
-  4.  source env-var.sh
-  5.  flask init-db
-  6.  flask run
-  7.  http://127.0.0.1:5000/movies/
+  1.  Create a virtual environment in the root directory: python3 -m venv venv
+  2.  Activate the virtual environment: source venv/bin/activate
+  3.  Install the dependencies: python3 -m pip install -r requirements.txt
+  4.  set up environment variables for the flask app: source env-var.sh
+  5.  initialize the database: 'flask init-db' after the database is intialized, 
+      the database file is at: 'instance/flaskr.sqlite'
+  6.  start the website: flask run
+  7.  The webpage can be checked with this URL:  http://127.0.0.1:5000/movies/
