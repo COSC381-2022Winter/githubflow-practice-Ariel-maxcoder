@@ -10,3 +10,5 @@ Steps:
       the database file is at: 'instance/flaskr.sqlite'
   6.  start the website: flask run
   7.  The webpage can be checked with this URL:  http://127.0.0.1:5000/movies/
+  8.  To stop the app: 'crtl + c'
+  9.  To stop the virtual environment: 'deactivate'
